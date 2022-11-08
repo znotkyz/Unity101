@@ -23,7 +23,7 @@ public class Controller : MonoBehaviour
 
             //transform.position = new Vector3(0, 2, 0);
 
-            transform.position = new Vector3(0, transform.position.y + 0.001f, 0);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.001f, 0);
 
         }
 
@@ -32,7 +32,7 @@ public class Controller : MonoBehaviour
 
             //transform.position = new Vector3(0, -2, 0);
 
-            transform.position = new Vector3(0, transform.position.y + -0.001f, 0);
+            transform.position = new Vector3(transform.position.x, transform.position.y + -0.001f, 0);
         }
 
 
@@ -41,7 +41,7 @@ public class Controller : MonoBehaviour
 
             //transform.position = new Vector3(-2, 0, 0);
 
-            transform.position = new Vector3(transform.position.x + -0.001f, 0, 0);
+            transform.position = new Vector3(transform.position.x + -0.001f, transform.position.y, 0);
         }
 
 
@@ -50,7 +50,7 @@ public class Controller : MonoBehaviour
 
             //transform.position = new Vector3(2, 0, 0);
 
-            transform.position = new Vector3(transform.position.x + 0.001f, 0, 0);
+            transform.position = new Vector3(transform.position.x + 0.001f, transform.position.y, 0);
         }
 
 
